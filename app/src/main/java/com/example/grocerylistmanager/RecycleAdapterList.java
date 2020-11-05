@@ -20,6 +20,7 @@ public class RecycleAdapterList extends RecyclerView.Adapter<RecycleAdapterList.
     ArrayList<Float> quantity;
     ArrayList<Boolean> checkMark;
     Context context;
+
     public RecycleAdapterList(Context context, ArrayList<String> brand, ArrayList<String> type, ArrayList<Float> quantity, ArrayList<String> units, ArrayList<Boolean> checkMark){
         this.brand = brand;
         this.type = type;
